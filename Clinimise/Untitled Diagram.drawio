@@ -1,1 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T11:25:54.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.1" etag="7TQEgBAWxgsmrwhH55Sq" type="github"><diagram id="LgPDxQdbTrT2RcA_zpDW">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-04T13:09:04.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="8jt3N_8t5epEmilsf7wj" version="20.5.1" type="github">
+  <diagram id="LgPDxQdbTrT2RcA_zpDW" name="Page-1">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-1" value="Practitioner" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="125" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-2" value="Patients" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="235" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-3" value="Appointments&lt;br&gt;(Patient ID)&lt;br&gt;(Practitioner ID)&lt;br&gt;(Business ID)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-4" value="Practitioner&lt;br&gt;Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-5" value="Patient&lt;br&gt;Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-10" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="145" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-12" value="Businesses" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="175" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-14" value="DateRange" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="L3a_IlVbx3cxETBgmpXk-2" target="L3a_IlVbx3cxETBgmpXk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="L3a_IlVbx3cxETBgmpXk-4" target="L3a_IlVbx3cxETBgmpXk-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="200" as="sourcePoint" />
+            <mxPoint x="510" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="L3a_IlVbx3cxETBgmpXk-5" target="L3a_IlVbx3cxETBgmpXk-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="350" as="sourcePoint" />
+            <mxPoint x="420" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="L3a_IlVbx3cxETBgmpXk-2" target="L3a_IlVbx3cxETBgmpXk-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="270" as="sourcePoint" />
+            <mxPoint x="630" y="320" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="L3a_IlVbx3cxETBgmpXk-1" target="L3a_IlVbx3cxETBgmpXk-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="150" as="sourcePoint" />
+            <mxPoint x="640" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="190" as="sourcePoint" />
+            <mxPoint x="780" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-36" value="Expected from FE" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="115" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-37" value="&lt;p style=&quot;line-height: 1.5;&quot;&gt;Daily Data&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="60" width="235" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="210" as="sourcePoint" />
+            <mxPoint x="530" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="315" />
+              <mxPoint x="530" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-40" value="&lt;h1 style=&quot;font-size: 15px;&quot;&gt;Patient and Practitioners tables will have the data that&#39;s needed like&amp;nbsp;&lt;br&gt;1.Name&lt;br&gt;2.Date created&lt;br&gt;3.Location etc&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="370" width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-42" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="L3a_IlVbx3cxETBgmpXk-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="310" as="sourcePoint" />
+            <mxPoint x="750" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L3a_IlVbx3cxETBgmpXk-44" value="" style="endArrow=classic;html=1;rounded=0;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="320" as="sourcePoint" />
+            <mxPoint x="640" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
